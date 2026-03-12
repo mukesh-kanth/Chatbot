@@ -315,7 +315,6 @@ h1, h2, h3 {
   left: 50% !important;
   transform: translateX(-50%) !important;
   width: 100% !important;
-  max-width: 780px !important;
   padding: 12px 16px 16px !important;
   background: linear-gradient(to top, var(--bg-deep) 70%, transparent) !important;
   z-index: 999 !important;
@@ -336,7 +335,7 @@ h1, h2, h3 {
 
 [data-testid="stChatInput"] textarea {
   background: transparent !important;
-  color: var(--text-primary) !important;
+  border-radius: 20% !important;
   font-family: 'Syne', sans-serif !important;
   font-size: 0.95rem !important;
   padding: 14px 20px !important;
