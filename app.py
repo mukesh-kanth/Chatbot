@@ -2,6 +2,16 @@ import streamlit as st
 from chatbot_logic import get_hr_response
 from config import COMPANY_NAME
 
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="AI HR Automation System",
     page_icon="🤖",
