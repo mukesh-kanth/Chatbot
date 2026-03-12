@@ -1,0 +1,28 @@
+# Virtual environment
+virtual/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pip / package files
+pip-log.txt
+*.egg-info/
+dist/
+build/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.streamlit/secrets.toml
+.env
